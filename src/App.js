@@ -1,14 +1,14 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import AboutUs from './components/AboutUs';
-import Room from './components/Room';
-import Service from './components/Services';
-import Gallery from './components/Gallery';
-import Contact from './components/ContactUs';
-import Map from './components/Map';
-import Footer from './components/Footer';
+import Navbar from './pages/Navbar';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Room from './pages/Room';
+import Service from './pages/Services';
+import Gallery from './pages/Gallery';
+import Contact from './pages/ContactUs';
+import Map from './pages/Map';
+import Footer from './pages/Footer';
 import './App.css';
 
 function App() {
@@ -17,12 +17,12 @@ function App() {
       <Navbar />
       <Home />
       <AboutUs />
-      <Room/>
-      <Service/>
-       <Gallery/>
-        <Contact/>
-        <Map/>
-        <Footer/>
+      <Room />
+      <Service />
+      <Gallery />
+      <Contact />
+      <Map />
+      <Footer />
     </div>
   );
 }
